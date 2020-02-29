@@ -1,3 +1,6 @@
+#WORK
+#IN
+#PROGRESS
 import socket # import networking
 import sys # import sys in case networking requires it
 
