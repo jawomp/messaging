@@ -10,6 +10,6 @@ s.listen(5) # start tcp listener, wait for 5 connections
 print('waiting for con') # debugging
 connection, client = s.accept() # accept connection from client
 print('connected') # debugging
-data = connection.recv(16) # accept 16 byte packets
+data = connection.recv(16) # accept 16 byte packets (?) (need more info on recv function)
 print('received "%s"' % data) # debugging
 connection.sendall(data) # send back received packet
