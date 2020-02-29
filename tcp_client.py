@@ -1,3 +1,6 @@
+# when testing, ensure you run server and client in separate interpreters
+# also ensure server runs before client
+
 import socket
 import sys
 
